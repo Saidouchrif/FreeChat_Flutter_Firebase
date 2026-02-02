@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "350607924843",
+    "project_id": "freechat-135b2",
+    "storage_bucket": "freechat-135b2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350607924843:android:ebcd917068be421c6d1b2e",
+        "android_client_info": {
+          "package_name": "com.ouchrif.freechat_flutter_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcm7RP1JcZUtPrS109iL439L8N-ZC7EEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

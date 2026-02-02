@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:freechat_flutter_firebase/Screens/registration_screen.dart';
+import 'package:freechat_flutter_firebase/Screens/signin_secreen.dart';
 import 'package:freechat_flutter_firebase/widgets/my_button.dart';
 
 class WelcomeScreen extends StatefulWidget {
+  static const String screenRoute='welcome_screen';
   const WelcomeScreen({super.key});
 
   @override
@@ -40,17 +43,17 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               height: 30,
             ),
             Mybutton(
-              color: Colors.yellow[900]!,
+              color: Colors.green[900]!,
               title: 'Sign in',
               onPressed: () {
-                print('sign in');
+                Navigator.pushNamed(context, SigninSecreen.screenRoute);
               },
             ),
             Mybutton(
               color: Colors.blue[800]!,
               title: 'Register',
               onPressed: () {
-                print('Register');
+                Navigator.pushNamed(context, RegistrationScreen.screenRoute);
               },
             ),
           ],

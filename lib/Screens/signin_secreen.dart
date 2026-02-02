@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:freechat_flutter_firebase/widgets/my_button.dart';
 
 class SigninSecreen extends StatefulWidget {
+  static const String screenRoute ='signin_screen';
   const SigninSecreen({super.key});
 
   @override
@@ -9,6 +10,8 @@ class SigninSecreen extends StatefulWidget {
 }
 
 class _SigninSecreenState extends State<SigninSecreen>{
+  late String email;
+  late String password; 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,8 +30,11 @@ class _SigninSecreenState extends State<SigninSecreen>{
               height: 50,
             ),
             TextField(
+              keyboardType: TextInputType.emailAddress,
               textAlign: TextAlign.center,
-              onChanged: (value) {},
+              onChanged: (value) {
+                email=value;
+              },
               decoration: InputDecoration(
                 hintText: 'Enter Your Email',
                 contentPadding: EdgeInsets.symmetric(
@@ -55,8 +61,11 @@ class _SigninSecreenState extends State<SigninSecreen>{
               height: 8,
             ),
             TextField(
+              obscureText: true,
               textAlign: TextAlign.center,
-              onChanged: (value) {},
+              onChanged: (value) {
+                password=value;
+              },
               decoration: InputDecoration(
                 hintText: 'Enter Your Password',
                 contentPadding: EdgeInsets.symmetric(
