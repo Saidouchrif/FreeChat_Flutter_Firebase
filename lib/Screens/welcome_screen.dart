@@ -44,14 +44,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             ),
             Mybutton(
               color: Colors.green[900]!,
-              title: 'Sign in',
+              title: 'Connexion',
               onPressed: () {
                 Navigator.pushNamed(context, SigninSecreen.screenRoute);
               },
             ),
             Mybutton(
               color: Colors.blue[800]!,
-              title: 'Register',
+              title: 'Inscription',
               onPressed: () {
                 Navigator.pushNamed(context, RegistrationScreen.screenRoute);
               },
