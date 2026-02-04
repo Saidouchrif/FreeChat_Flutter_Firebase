@@ -61,15 +61,7 @@ The application showcases best practices in Flutter development, Firebase integr
 - **Scalable Architecture**: Well-structured codebase
 - **Error Handling**: Comprehensive error management
 - **Performance Optimized**: Efficient data loading and caching
-
-## 📸 Screenshots
-
-<div align="center">
-  <img src="images/welcome_screen.png" alt="Welcome Screen" width="200" />
-  <img src="images/signin_screen.png" alt="Sign In" width="200" />
-  <img src="images/chat_screen.png" alt="Chat Interface" width="200" />
-</div>
-
+  
 ## 🛠 Tech Stack
 
 ### Frontend
